@@ -23,13 +23,6 @@
           "type": "status"
         },
         {
-          "background": "#ffcc88",
-          "foreground": "#222222",
-          "style": "plain",
-          "template": "\uf0e7",
-          "type": "root"
-        },       
-        {
           "background": "#444444",
           "foreground": "#cccccc",
           "properties": {
