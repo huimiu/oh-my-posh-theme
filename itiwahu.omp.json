@@ -23,6 +23,27 @@
           "type": "status"
         },
         {
+          "background": "#ffcc88",
+          "foreground": "#222222",
+          "style": "plain",
+          "template": "\uf0e7",
+          "type": "root"
+        },
+        {
+          "background": "#222222",
+          "foreground": "#666666",
+          "style": "plain",
+          "template": " {{ if .WSL }}\uebcc {{ end }}{{.Icon}}",
+          "type": "os"
+        },
+        {
+          "background": "#222222",
+          "foreground": "#666666",
+          "style": "plain",
+          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} ",
+          "type": "session"
+        },
+        {
           "background": "#444444",
           "foreground": "#cccccc",
           "properties": {
