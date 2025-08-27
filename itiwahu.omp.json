@@ -3,18 +3,7 @@
   "blocks": [
     {
       "alignment": "left",
-      "segments": [
-        {
-          "background": "#007ACC",
-          "foreground": "#222222",
-          "properties": {
-            "style": "austin",
-            "threshold": 321
-          },
-          "style": "plain",
-          "template": " {{ .FormattedMs }} ",
-          "type": "executiontime"
-        },
+      "segments": [        
         {
           "background": "#880000",
           "foreground": "#ff8888",
@@ -28,20 +17,6 @@
           "style": "plain",
           "template": "\uf0e7",
           "type": "root"
-        },
-        {
-          "background": "#222222",
-          "foreground": "#666666",
-          "style": "plain",
-          "template": " {{ if .WSL }}\uebcc {{ end }}{{.Icon}}",
-          "type": "os"
-        },
-        {
-          "background": "#222222",
-          "foreground": "#666666",
-          "style": "plain",
-          "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} ",
-          "type": "session"
         },
         {
           "background": "#444444",
